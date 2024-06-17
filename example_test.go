@@ -1,3 +1,4 @@
+// Copyright 2024 Pulumi Corp. All rights reserved.
 // Copyright 2013 Akeda Bagus <admin@gedex.web.id>. All rights reserved.
 //
 // Use of this source code is governed by a BSD-style
@@ -7,7 +8,7 @@ package inflector_test
 import (
 	"fmt"
 
-	"github.com/gedex/inflector"
+	"github.com/pulumi/inflector"
 )
 
 func ExampleSingularize() {
