@@ -147,6 +147,7 @@ var singularTests = []inflectorTest{
 	{"feet", "foot", true},
 	{"objectives", "objective", true},
 	{"species", "species", true},
+	{"caches", "cache", true},
 	{"", "", true},
 }
 
