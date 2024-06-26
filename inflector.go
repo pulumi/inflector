@@ -13,7 +13,6 @@ There are only two exported functions: `Pluralize` and `Singularize`.
 
 	s2 := "octopus"
 	fmt.Println(inflector.Pluralize(s2)) // will print "octopuses"
-
 */
 package inflector
 
@@ -231,6 +230,7 @@ func init() {
 			{`moves`, `move`},
 			{`mythoi`, `mythos`},
 			{`niches`, `niche`},
+			{`caches`, `cache`},
 			{`numina`, `numen`},
 			{`occiputs`, `occiput`},
 			{`octopuses`, `octopus`},
